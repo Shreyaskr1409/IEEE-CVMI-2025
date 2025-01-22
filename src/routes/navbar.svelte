@@ -4,7 +4,7 @@
 
 <div class="w-full flex flex-row items-center justify-between bg-zinc-950 px-4 py-1 fixed gap-4">
     <div class="prose text-nowrap">
-        <h1 class="text-white">IEEE CVMI 2025</h1>
+        <h1 class="text-white text-2xl font-semibold">IEEE CVMI 2025</h1>
     </div>
     <div class="flex gap-1 items-center justify-center text-nowrap">
         <Button variant="ghost" class="text-white hover:text-white hover:bg-zinc-800">Home</Button>
