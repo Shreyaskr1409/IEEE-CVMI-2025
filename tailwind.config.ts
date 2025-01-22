@@ -14,6 +14,14 @@ const config: Config = {
 			}
 		},
 		extend: {
+            typography: (theme) => ({
+                    DEFAULT: {
+                      css: {
+                        maxWidth: 'none', // Removes the default max-width
+                        maxMargin: '2rem'
+                      },
+                    },
+                  }),
 			colors: {
 				border: "hsl(var(--border) / <alpha-value>)",
 				input: "hsl(var(--input) / <alpha-value>)",
