@@ -1,3 +1,8 @@
+<div mt-0 position:ab>
+    <img src="/mainbuilding.jpg" alt="">
+
+</div>
+
 
 <div class="px-4">
     <div>
@@ -5,7 +10,7 @@
         <p class=" font-semibold text-xl">Indian Institute of Information Technology Allahabad</p>
     </div>
 
-    <div class="prose w-[500px]">
+    <div class="prose w-[500px] flex-1 ">
         <main>
             <section>
                 <h2>About</h2>
@@ -54,9 +59,11 @@
             </section>
 
             <section>
-                <h2>Images</h2>
-                <img src="https://cvmi2024.iiita.ac.in/images/sample1.jpg" alt="Sample Image 1">
-                <img src="https://cvmi2024.iiita.ac.in/images/sample2.jpg" alt="Sample Image 2">
+               <img src="/la.jpg" alt="la">
+               <img src="/la1.jpg" alt="la1">
+               <img src="/la2.jpeg" alt="la2">
+               <img src="/maingate.jpeg" alt="gate">
+               <img src="/park.jpg" alt="park">
             </section>
         </main>
 
