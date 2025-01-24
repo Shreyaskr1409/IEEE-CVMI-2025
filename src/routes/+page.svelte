@@ -1,8 +1,8 @@
 <script>
 	import Body from "./body.svelte";
-	import Carousel from "./carousel.svelte";
+	import CarouselShow from "./carouselShow.svelte";
 </script>
 
-<Carousel></Carousel>
+<CarouselShow></CarouselShow>
 
 <Body></Body>
