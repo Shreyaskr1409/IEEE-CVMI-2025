@@ -21,7 +21,7 @@
         <Button>Registration</Button>
         <Button>Contact Us</Button>
     </div>
-    <div class="text-xs text-center">
-        <p>Copyright ©2025 CVMI-All rights reserved NIT ROURKELA</p>
+    <div class="text-center">
+        <p>Thank you!</p>
     </div>
 </footer>
