@@ -8,7 +8,7 @@
 <div class="w-full overflow-hidden">
     <Navbar></Navbar>
 </div>
-<div class="h-16 w-full"></div>
+<div class="h-12 bg-black w-full"></div>
 {@render children()}
 <div class="w-full overflow-hidden">
     <Footer></Footer>

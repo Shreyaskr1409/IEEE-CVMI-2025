@@ -3,7 +3,7 @@
 	import NavOptions from "./navOptions.svelte";
 </script>
 
-<div class="w-full flex flex-row items-center justify-between bg-zinc-950 px-4 py-1 fixed gap-4">
+<div class="w-full flex flex-row items-center justify-between bg-zinc-950 px-4 py-1 fixed gap-4 z-50">
     <div class="prose text-nowrap">
         <h1 class="text-white text-4xl font-bold">IEEE CVMI 2025</h1>
     </div>

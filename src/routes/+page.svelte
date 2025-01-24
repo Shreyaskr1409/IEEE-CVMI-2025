@@ -1,13 +1,8 @@
 <script>
 	import Body from "./body.svelte";
-
+	import Carousel from "./carousel.svelte";
 </script>
 
-
-<div mt-0 position:ab>
-    <img src="/mainbuilding.jpg" alt="">
-
-</div>
-
+<Carousel></Carousel>
 
 <Body></Body>
