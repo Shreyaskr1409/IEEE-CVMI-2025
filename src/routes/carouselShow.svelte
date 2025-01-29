@@ -17,7 +17,8 @@
             <img src="/id65aUZ6hI_1737699275674.svg" alt="" class=" aspect-square h-28"/>
 
             <div class="flex flex-col gap-2 text-white bg-opacity-70">
-                <h1 class="text-3xl font-extrabold"><span class="text-amber-300">CVMI 2025</span> - Conference on Vision, Modeling, and Imaging</h1>
+                <h1 class="text-3xl font-extrabold"><span class="text-amber-300">CVMI 2025</span> - International Conference on
+Computer Vision and Machine Intelligence</h1>
                 <p class=" font-medium text-xl text-amber-300">National Institute of Technology, Rourkela</p>
             </div>
         </div>
@@ -26,7 +27,7 @@
             <!-- <CarouselItem>
                 <Card class="relative">
                     <img src="/building.jpeg" alt="" class="rounded-xl w-full h-[500px] object-cover"/>
-                    <p class="max-w-[400px] font-medium text-lg absolute top-0 p-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, mollitia aliquam. Maiores libero provident nam conse.</p>
+                    <p class="max-w-[400px] font-medium text-lg absolute top-0 p-4">CVMI is a leading conference on Computer Vision and Machine Intelligence, showcasing top experts, groundbreaking research, and innovative discussions.</p>
                 </Card>
             </CarouselItem> -->
             <CarouselItem>
@@ -46,7 +47,7 @@
                         />
 
                     </div>
-                    <p class="max-w-[500px] font-medium text-lg absolute top-0 z-10 p-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, mollitia aliquam. Maiores libero provident nam conse.</p>    
+                    <p class="max-w-[500px] font-medium text-lg absolute top-0 z-10 p-4">CVMI is a leading conference on Computer Vision and Machine Intelligence, showcasing top experts, groundbreaking research, and innovative discussions.</p>    
                 </Card>
             </CarouselItem>
             <CarouselItem>
@@ -66,7 +67,7 @@
                         />
 
                     </div>
-                    <p class="max-w-[500px] w-full font-medium text-lg absolute top-0 z-10 p-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, mollitia aliquam. Maiores libero provident nam conse.</p>    
+                    <p class="max-w-[500px] w-full font-medium text-lg absolute top-0 z-10 p-4">CVMI is a leading conference on Computer Vision and Machine Intelligence, showcasing top experts, groundbreaking research, and innovative discussions.</p>    
                 </Card>
             </CarouselItem>
             <CarouselItem>
@@ -85,7 +86,7 @@
                             class="relative z-10 bg-transparent object-contain object-center h-full"
                         />
                     </div>
-                    <p class="max-w-[500px] w-full font-medium text-lg absolute top-0 z-10 p-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, mollitia aliquam. Maiores libero provident nam conse.</p>    
+                    <p class="max-w-[500px] w-full font-medium text-lg absolute top-0 z-10 p-4">CVMI is a leading conference on Computer Vision and Machine Intelligence, showcasing top experts, groundbreaking research, and innovative discussions.</p>    
                 </Card>
             </CarouselItem>
         </CarouselContent>
