@@ -9,12 +9,12 @@
 
 </script>
 
-<div class="w-full relative pb-6 max-md:h-screen max-md:pb-10">
-    <Carousel class="w-full h-full dark bg-zinc-950 px-2 pb-2">
+<div class="w-full relative pb-6">
+    <Carousel class="w-full dark bg-zinc-950 px-2 pb-2">
         
         <div class="absolute bottom-6 mx-4 px-2 py-1 z-10 flex flex-row gap-2 bg-zinc-900
         max-w-[600px] rounded-2xl items-center bg-opacity-70">
-            <img src="/id65aUZ6hI_1737699275674.svg" alt="" class="max-[450px]:hidden aspect-square h-28"/>
+            <img src="/id65aUZ6hI_1737699275674.svg" alt="" class=" aspect-square h-28"/>
 
             <div class="flex flex-col gap-2 text-white bg-opacity-70">
                 <h1 class="text-3xl font-extrabold"><span class="text-amber-300">CVMI 2025</span> - International Conference on
@@ -52,7 +52,7 @@ Computer Vision and Machine Intelligence</h1>
             </CarouselItem>
             <CarouselItem>
                 <Card>
-                    <div class="relative rounded-xl w-full h-[700px] object-cover flex justify-center items-center overflow-hidden">
+                    <div class="relative rounded-xl w-full h-[500px] lg:h-[700px] object-cover flex justify-center items-center overflow-hidden">
                         <div
                             class="absolute inset-0 bg-center bg-cover filter z-0 blur-sm opacity-50"
                             style="background-image: url('/la2.jpeg');"
@@ -72,7 +72,7 @@ Computer Vision and Machine Intelligence</h1>
             </CarouselItem>
             <CarouselItem>
                 <Card>
-                    <div class="relative rounded-xl w-full h-[700px] object-cover flex justify-center items-center overflow-hidden">
+                    <div class="relative rounded-xl w-full h-[500px] lg:h-[700px] object-cover flex justify-center items-center overflow-hidden">
                         <div
                             class="absolute inset-0 bg-center bg-cover filter z-0 blur-sm opacity-50"
                             style="background-image: url('/mainbuilding.jpg');"
@@ -90,7 +90,7 @@ Computer Vision and Machine Intelligence</h1>
                 </Card>
             </CarouselItem>
         </CarouselContent>
-        <CarouselPrevious variant="default" class="absolute top-1/2 left-4 border-2 z-20" />
-        <CarouselNext variant="default" class="absolute top-1/2 right-4 border-2 z-20" />
+        <CarouselPrevious variant="default" class="absolute top-1/2 left-4 border-2" />
+        <CarouselNext variant="default" class="absolute top-1/2 right-4 border-2" />
     </Carousel>
 </div>

@@ -2,11 +2,12 @@
 	import { Card, CardContent } from "@/components/ui/card";
 
 	import CarouselContent from "@/components/ui/carousel/carousel-content.svelte";
-	import CarouselShow from "./carouselShow.svelte";
 	import Carousel from "@/components/ui/carousel/carousel.svelte";
 	import CarouselItem from "@/components/ui/carousel/carousel-item.svelte";
 	import CarouselNext from "@/components/ui/carousel/carousel-next.svelte";
 	import CarouselPrevious from "@/components/ui/carousel/carousel-previous.svelte";
+	import Profile from "@/my-components/profile.svelte";
+	import CarouselShow2 from "./carouselShow2.svelte";
 
 </script>
 
@@ -22,7 +23,7 @@
             <Card class="dark">
                 <CardContent>
                     
-                <iframe class="w-full max-w-none h-[400px]"
+                <iframe class="w-full max-w-none h-[400px]" title="Schedule"
                 src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRPuLND99MFJNDK7NoSmUmVA6vJUptCnYThSp9jFfJoGq6O9QhlTWKHC7OG1xkV_fMBbizVqhSmNFaV/pubhtml?widget=true&amp;headers=false"></iframe>
         
                 </CardContent>
@@ -30,8 +31,8 @@
         </div>
     </div>
 
-    <div class="px-4 flex flex-row gap-4 max-w-full">
-        <div class="w-1/2">
+    <div class="px-4 grid grid-cols-2 gap-4 max-w-full max-lg:grid-cols-1">
+        <div>
             <main>
                 <section class="my-4">
                     <h2 class="text-3xl font-bold my-2">About</h2>
@@ -54,6 +55,18 @@
                         The IAPR Best Paper Award and the CVMI-2025 Best Paper Awards will be given to the outstanding papers. The Best 
                         PhD Dissertation Awards will also be given in the PhD Symposium during IEEE CVMI 2025.
                     </p>
+                </section>
+
+                <section>
+                    <h2 class="text-3xl font-bold">CVMI Committee</h2>
+                    <div class="my-2 grid grid-cols-3 max-xl:grid-cols-2 max-lg:grid-cols-3 max-md:grid-cols-2 max-sm:grid-cols-1 gap-2">
+                        <Profile name="Prof. Umamaheshwar Rao" position="Honorable Director of NIT Rourkela" picture="/associates/CVMI Committee/UmaMaheshwar rao.jpg"
+                        coverFlag="object-cover"></Profile>
+                        <Profile name="Prof. Poonam Singh" position="NIT Rourkela" picture="/associates/CVMI Committee/Poonam Singh.jpeg"
+                        coverFlag="object-cover"></Profile>
+                        <Profile name="Prof. Manish Okade" position="NIT Rourkela" picture="/associates/CVMI Committee/Manish Okade.jpeg"
+                        coverFlag="object-cover"></Profile>
+                    </div>
                 </section>
 
                 <section class="my-4">
@@ -172,15 +185,15 @@
                 <section class="my-4">
                     <h2 class="text-3xl font-bold">Contacts</h2>
                     <p class="my-2">
-                        For inquiries, please email us at <a href="mailto:cvmi2025@nitrkl.ac.in">cvmi2025@nitrkl.ac.in</a>.
+                        For inquiries, please email us at <a class="underline" href="mailto:cvmi2025@nitrkl.ac.in">cvmi2025@nitrkl.ac.in</a>.
                     </p>
                 </section>
             </main>
         </div>
 
-        <div class="w-1/2 relative">
+        <div class="relative">
             <div class="sticky top-16">
-                <CarouselShow></CarouselShow>
+                <CarouselShow2></CarouselShow2>
             </div>
         </div>
 
