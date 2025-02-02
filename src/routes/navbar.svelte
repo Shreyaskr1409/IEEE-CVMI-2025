@@ -9,7 +9,10 @@
     </div>
     <div class="flex gap-1 items-center justify-center text-nowrap">
         <Button variant="ghost" class="text-white hover:text-white hover:bg-zinc-800 max-md:hidden">Home</Button>
+        
+        <a href="/committee">
         <Button variant="ghost" class="text-white hover:text-white hover:bg-zinc-800 max-md:hidden">Committee</Button>
+        </a>
         <Button variant="ghost" class="text-white hover:text-white hover:bg-zinc-800 max-lg:hidden">Call for papers</Button>
         <Button variant="ghost" class="text-white hover:text-white hover:bg-zinc-800 max-2xl:hidden">Keynote</Button>
         <Button variant="ghost" class="text-white hover:text-white hover:bg-zinc-800 max-lg:hidden">PhD Colloquium</Button>
