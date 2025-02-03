@@ -9,10 +9,10 @@
 	</div>
 </section>
 
-<section class="ml-20 mr-20 mt-7 pl-20 pr-20">
+<section class=" mx-auto w-full max-w-[1200px] p-4">
 	<h1 class="text-center text-4xl font-bold">CVMI Committee</h1>
 	<div
-		class="my-3 mb-7 grid grid-cols-3 gap-2 max-xl:grid-cols-2 max-lg:grid-cols-3 max-md:grid-cols-2 max-sm:grid-cols-1"
+		class="my-3 mb-7 grid grid-cols-3 gap-2 max-lg:grid-cols-3 max-md:grid-cols-2 max-sm:grid-cols-1"
 	>
 		<Profile
 			name="Prof. Umamaheshwar Rao"
@@ -36,7 +36,7 @@
 
 	<h1 class="text-center text-4xl font-bold">International Advisory Committee</h1>
 	<div
-		class="self-center justify-center items-center my-3 grid grid-cols-3 gap-2 max-xl:grid-cols-2 max-lg:grid-cols-3 max-md:grid-cols-2 max-sm:grid-cols-1"
+		class="my-3 mb-7 grid grid-cols-3 gap-2 max-lg:grid-cols-3 max-md:grid-cols-2 max-sm:grid-cols-1"
 	>
 		<Profile
 			name="Prof. Anup Basu"
@@ -84,7 +84,7 @@
 
 	<h1 class="text-center text-4xl font-bold">National Advisory Committee</h1>
 	<div
-		class="my-3 mb-7 grid grid-cols-3 gap-2 max-xl:grid-cols-2 max-lg:grid-cols-3 max-md:grid-cols-2 max-sm:grid-cols-1"
+		class="my-3 mb-7 grid grid-cols-3 gap-2 max-lg:grid-cols-3 max-md:grid-cols-2 max-sm:grid-cols-1"
 	>
 		<Profile
 			name="Prof. Manindra Agrawal"
@@ -114,7 +114,7 @@
 
 	<h1 class="text-center text-4xl font-bold">Patrons</h1>
 	<div
-		class="my-3 grid grid-cols-3 gap-2 max-xl:grid-cols-2 max-lg:grid-cols-3 max-md:grid-cols-2 max-sm:grid-cols-1"
+		class="my-3 mb-7 grid grid-cols-3 gap-2 max-lg:grid-cols-3 max-md:grid-cols-2 max-sm:grid-cols-1"
 	>
 		<Profile
 			name="Prof. Anup Basu"
@@ -144,7 +144,7 @@
 
 	<h1 class="text-center text-4xl font-bold">General Chairs</h1>
 	<div
-		class="my-3 grid grid-cols-3 gap-2 max-xl:grid-cols-2 max-lg:grid-cols-3 max-md:grid-cols-2 max-sm:grid-cols-1"
+		class="my-3 mb-7 grid grid-cols-3 gap-2 max-lg:grid-cols-3 max-md:grid-cols-2 max-sm:grid-cols-1"
 	>
 		<Profile
 			name="Prof. Anup Basu"
@@ -168,7 +168,7 @@
 
 	<h1 class="text-center text-4xl font-bold">General Co-Chairs</h1>
 		<div
-			class="my-3 grid grid-cols-3 gap-2 max-xl:grid-cols-2 max-lg:grid-cols-3 max-md:grid-cols-2 max-sm:grid-cols-1"
+		class="my-3 mb-7 grid grid-cols-3 gap-2 max-lg:grid-cols-3 max-md:grid-cols-2 max-sm:grid-cols-1"
 		>
 			<Profile
 				name="Prof. Anup Basu"
@@ -198,7 +198,7 @@
 
 			<h1 class="text-center text-4xl font-bold">Conference Chairs</h1>
 			<div
-				class="my-3 grid grid-cols-3 gap-2 max-xl:grid-cols-2 max-lg:grid-cols-3 max-md:grid-cols-2 max-sm:grid-cols-1"
+		class="my-3 mb-7 grid grid-cols-3 gap-2 max-lg:grid-cols-3 max-md:grid-cols-2 max-sm:grid-cols-1"
 			>
 				<Profile
 					name="Prof. Anup Basu"
@@ -222,7 +222,7 @@
 
 				<h1 class="text-center text-4xl font-bold">Conference Co-Chair</h1>
 				<div
-					class="my-3 grid grid-cols-3 gap-2 max-xl:grid-cols-2 max-lg:grid-cols-3 max-md:grid-cols-2 max-sm:grid-cols-1 center"
+		class="my-3 mb-7 grid grid-cols-3 gap-2 max-lg:grid-cols-3 max-md:grid-cols-2 max-sm:grid-cols-1"
 				>
 					<Profile
 						name="Prof. Anup Basu"
@@ -234,7 +234,7 @@
 
 					<h1 class="text-center text-4xl font-bold">Conference Treasurer</h1>
 					<div
-						class="my-3 grid grid-cols-3 gap-2 max-xl:grid-cols-2 max-lg:grid-cols-3 max-md:grid-cols-2 max-sm:grid-cols-1"
+		class="my-3 mb-7 grid grid-cols-3 gap-2 max-lg:grid-cols-3 max-md:grid-cols-2 max-sm:grid-cols-1"
 					>
 						<Profile
 							name="Prof. Anup Basu"
@@ -245,7 +245,7 @@
                     </div>
 						<h1 class="text-center text-4xl font-bold">Conference Convener</h1>
 						<div
-							class="my-3 grid grid-cols-3 gap-2 max-xl:grid-cols-2 max-lg:grid-cols-3 max-md:grid-cols-2 max-sm:grid-cols-1"
+		class="my-3 mb-7 grid grid-cols-3 gap-2 max-lg:grid-cols-3 max-md:grid-cols-2 max-sm:grid-cols-1"
 						>
 							<Profile
 								name="Prof. Anup Basu"
@@ -257,7 +257,7 @@
 
 							<h1 class="text-center text-4xl font-bold">Conference Publication Chairs</h1>
 							<div
-								class="my-3 grid grid-cols-3 gap-2 max-xl:grid-cols-2 max-lg:grid-cols-3 max-md:grid-cols-2 max-sm:grid-cols-1"
+		class="my-3 mb-7 grid grid-cols-3 gap-2 max-lg:grid-cols-3 max-md:grid-cols-2 max-sm:grid-cols-1"
 							>
 								<Profile
 									name="Prof. Anup Basu"
@@ -281,7 +281,7 @@
 
 								<h1 class="text-center text-4xl font-bold">Sponsorship Chair</h1>
 								<div
-									class="my-3 grid grid-cols-3 gap-2 max-xl:grid-cols-2 max-lg:grid-cols-3 max-md:grid-cols-2 max-sm:grid-cols-1"
+		class="my-3 mb-7 grid grid-cols-3 gap-2 max-lg:grid-cols-3 max-md:grid-cols-2 max-sm:grid-cols-1"
 								>
 									<Profile
 										name="Prof. Anup Basu"
@@ -293,7 +293,7 @@
 
 									<h1 class="text-center text-4xl font-bold">Conference Chairs</h1>
 									<div
-										class="my-3 grid grid-cols-3 gap-2 max-xl:grid-cols-2 max-lg:grid-cols-3 max-md:grid-cols-2 max-sm:grid-cols-1"
+		class="my-3 mb-7 grid grid-cols-3 gap-2 max-lg:grid-cols-3 max-md:grid-cols-2 max-sm:grid-cols-1"
 									>
 										<Profile
 											name="Prof. Anup Basu"
@@ -335,7 +335,7 @@
 
 										<h1 class="text-center text-4xl font-bold">Local Organizing Committee</h1>
 										<div
-											class="my-3 grid grid-cols-3 gap-2 max-xl:grid-cols-2 max-lg:grid-cols-3 max-md:grid-cols-2 max-sm:grid-cols-1"
+		class="my-3 mb-7 grid grid-cols-3 gap-2 max-lg:grid-cols-3 max-md:grid-cols-2 max-sm:grid-cols-1"
 										>
 											<Profile
 												name="Prof. Anup Basu"
@@ -358,7 +358,7 @@
                                         </div>
 											<h1 class="text-center text-4xl font-bold">Local Organizing Committee</h1>
 											<div
-												class="my-3 grid grid-cols-3 gap-2 max-xl:grid-cols-2 max-lg:grid-cols-3 max-md:grid-cols-2 max-sm:grid-cols-1"
+		class="my-3 mb-7 grid grid-cols-3 gap-2 max-lg:grid-cols-3 max-md:grid-cols-2 max-sm:grid-cols-1"
 											>
 												<Profile
 													name="Prof. Anup Basu"
