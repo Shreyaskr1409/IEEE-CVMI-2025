@@ -31,7 +31,7 @@ jobs:
       - name: Package Project
         run: |
           mkdir project
-          cp -r * project/
+          rsync -av --exclude=project . project/
           zip -r node_project.zip project
 
       - name: Upload Artifact
