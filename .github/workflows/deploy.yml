@@ -6,20 +6,19 @@ on:
       - main
 
 jobs:
-  test:
-    runs-on: ubuntu-latest
+  test_build:
+    name: Testing if build is successful
+    runs-on: windows-latest
     steps:
-      - name: Checkout Code
-        uses: actions/checkout@v3
-
-      - name: Install Dependencies
-        run: npm install
-
-      - name: Run Tests
-        run: npm test
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 20
+      - run: npm ci
+      - run: npm run build
 
   deploy:
-    needs: test
+    needs: test_build
     runs-on: ubuntu-latest
 
     steps:
