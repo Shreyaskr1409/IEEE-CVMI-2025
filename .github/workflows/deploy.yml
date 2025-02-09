@@ -1,0 +1,46 @@
+name: CI/CD Pipeline
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v3
+
+      - name: Install Dependencies
+        run: npm install
+
+      - name: Run Tests
+        run: npm test
+
+  deploy:
+    needs: test
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v3
+
+      - name: Install Dependencies
+        run: npm install --production
+
+      - name: Package Project
+        run: |
+          mkdir deploy
+          cp -r * deploy/
+          zip -r node_project.zip deploy
+
+      - name: Upload Artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: node_project
+          path: node_project.zip
+
+      - name: Trigger Webhook on Windows Server
+        run: |
+          curl -X POST https://cvmi2025.nitrkl.ac.in/webhook -H "Content-Type: application/json" -d '{}'
