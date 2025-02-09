@@ -17,28 +17,31 @@ jobs:
       - run: npm ci
       - run: npm run build
 
+      - name: Upload Build Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: build_artifact
+          path: build/
+
   deploy:
     needs: test_build
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout Code
-        uses: actions/checkout@v3
+      - name: Download Build Artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: build_artifact
+          path: build/
 
-      - name: Install Dependencies
-        run: npm install --production
+      - name: Zip Build Folder
+        run: zip -r build.zip build/
 
-      - name: Package Project
-        run: |
-          mkdir project
-          rsync -av --exclude=project . project/
-          zip -r node_project.zip project
-
-      - name: Upload Artifact
+      - name: Upload Zipped Build
         uses: actions/upload-artifact@v4
         with:
-          name: node_project
-          path: node_project.zip
+          name: zipped_build
+          path: build.zip
 
       - name: Trigger Webhook on Windows Server
         run: |
