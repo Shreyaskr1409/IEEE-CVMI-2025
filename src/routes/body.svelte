@@ -183,6 +183,19 @@
                 </section>
 
                 <section class="my-4">
+                    <h2 class="text-3xl font-bold">Accomodation Recommendations</h2>
+                    <ul class="ml-6 list-disc [&>li]:mt-2">
+                        <li><u><strong><a href="https://deepticourtyard.com/">Deepti Courtyard:</a></strong></u> This hotel is located around 3.5 kms away from NIT Rourkela and wll be the lead hotel to facilitate
+                        the discussion between participants. The necessary quote for room rates on a 50 room block reservation is enclosed. </li>
+                        <li><u><strong><a href="https://www.mayfairhotels.com/rourkela/">Mayfair Hotels:</a></strong></u> This hotel is around 9 kms from NIT Rourkela and also provides good amenities.</li>
+                        <li><u><strong><a href="https://www.thecentralpark.in/">The Central Park:</a></strong></u> This hotel is around 5 kms from NIT Rourkela. It is one of the alternate hotels and catering to all 
+                        budget options.</li>
+                        <li><u><strong><a href="https://shorturl.at/mEQr1">Radhika Regency:</a></strong></u> This hotel is around 5 kms from NIT Rourkela. It is one of the alternate hotels and catering to all 
+                            budget options.</li>
+                    </ul>
+                </section>
+
+                <section class="my-4">
                     <h2 class="text-3xl font-bold">Contacts</h2>
                     <p class="my-2">
                         For inquiries, please email us at <a class="underline" href="mailto:cvmi2025@nitrkl.ac.in">cvmi2025@nitrkl.ac.in</a>.

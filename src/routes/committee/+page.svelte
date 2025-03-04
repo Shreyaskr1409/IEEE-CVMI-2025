@@ -117,15 +117,15 @@
 		class="my-3 mb-7 grid grid-cols-3 gap-2 max-lg:grid-cols-3 max-md:grid-cols-2 max-sm:grid-cols-1"
 	>
 		<Profile
-			name="Prof. Anup Basu"
-			position="University of Alberta, Canada"
-			picture="/associates/International Advisory Committee/Anup Basu, Canada.jpeg"
+			name="Prof. B B Chaudhuri"
+			position="Indian Statistical Institute (ISI), Kolkata"
+			picture="/associates/CVMI Committee/BBChaudhuri.jpg"
 			coverFlag="object-cover"
 		></Profile>
 		<Profile
-			name="Prof. Mauro Barni"
-			position="NIT Rourkela"
-			picture="/associates/International Advisory Committee/Mauro Barni, Italy.jpeg"
+			name="Prof. Umamaheshwar Rao"
+			position="Honorable Director of NIT Rourkela"
+			picture="/associates/CVMI Committee/UmaMaheshwar rao.jpg"
 			coverFlag="object-cover"
 		></Profile>
 		<Profile
