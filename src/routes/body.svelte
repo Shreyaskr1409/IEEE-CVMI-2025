@@ -190,7 +190,7 @@
                         <li><u><strong><a href="https://www.mayfairhotels.com/rourkela/">Mayfair Hotels:</a></strong></u> This hotel is around 9 kms from NIT Rourkela and also provides good amenities.</li>
                         <li><u><strong><a href="https://www.thecentralpark.in/">The Central Park:</a></strong></u> This hotel is around 5 kms from NIT Rourkela. It is one of the alternate hotels and catering to all 
                         budget options.</li>
-                        <li><u><strong><a href="https://shorturl.at/mEQr1">Radhika Regency:</a></strong></u> This hotel is around 5 kms from NIT Rourkela. It is one of the alternate hotels and catering to all 
+                        <li><u><strong><a href="">Radhika Regency:</a></strong></u> This hotel is around 5 kms from NIT Rourkela. It is one of the alternate hotels and catering to all 
                             budget options.</li>
                     </ul>
                 </section>
